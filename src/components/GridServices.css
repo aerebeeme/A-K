@@ -1,0 +1,51 @@
+.card-title {
+    margin-bottom: .75rem;
+    font-family: Acumin,sans-serif;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    font-family: 'acumin-pro',sans-serif;
+}
+
+
+.text-muted {
+    color: #6c757d!important;
+    font-family: 'acumin-pro',sans-serif;
+}
+
+@media screen and (max-width: 1920px){
+    .card-deck{
+        margin:100px;
+    }
+
+    .card{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .card-deck{
+        margin:35px;
+    }
+
+    .card{
+        align-content: center;
+        margin:38px;
+        width: 80%;
+    }
+
+    .card-img-top{
+        height:320px !important;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .card{
+        align-content: center;
+        margin:40px;
+        width: 80%;
+    }
+}

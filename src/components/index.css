@@ -1,0 +1,6 @@
+@font-face {
+    font-family: acumin-pro;
+    src: local('Acumin'), url(./fonts/AcuminVariableConcept.otf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
