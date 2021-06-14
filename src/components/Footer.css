@@ -20,6 +20,7 @@
     
     .footer-subscription > p {
         font-family: Acumin,sans-serif;
+        text-align: center !important;
     }
     
     .footer-subscription-heading {
@@ -164,5 +165,8 @@
     }
     
     @media screen and (max-width: 768px) {
+        .footer-subscription{
+            text-align: none !important;
+        }
     }
     
