@@ -11,7 +11,7 @@ export default function AboutContent(){
             <Media.Body>
                 <h3 style={{textAlign:"left"}}>About Us</h3>
                     <h1 style={{textAlign:"left", paddingLeft:"0px"}}><strong>Multiservices company</strong></h1>
-                    <p>
+                    <p style={{justifyContent:"flex-start"}}>
                     We are a company with knowledge and experience in multi-services, such as residential cleaning, commercial cleaning and maintenance. <br/> We hope to serve you better than you expect so that you have an unforgettable experience together with us, let's continue supporting each other and do not forget that we are the solution to the daily problems of your daily life.
                     </p>
             </Media.Body>
