@@ -26,7 +26,7 @@ export default function AboutContent(){
         <Media classname="new-media">
             <Media.Body classname="new-body">
                     <h1 style={{textAlign:"left", paddingLeft:"0px"}}><strong>A&K Principles</strong></h1>
-                    <Card border="dark" classname="card-body-about">
+                    <Card border="dark" classname="card-body-about" style={{width:"auto"}}>
                         <Card.Body>
                             <Card.Title style={{textAlign:"left"}}><i class="fas fa-caret-right"/>Efficiency</Card.Title>
                             <Card.Text style={{textAlign:"left"}}>
@@ -35,7 +35,7 @@ export default function AboutContent(){
                         </Card.Body>
                     </Card>
                     <br />
-                    <Card border="dark" classname="card-body-about">
+                    <Card border="dark" classname="card-body-about" style={{width:"auto"}}>
                         <Card.Body>
                             <Card.Title style={{textAlign:"left"}}><i class="fas fa-caret-right"/>Passion</Card.Title>
                             <Card.Text style={{textAlign:"left"}}>
@@ -45,9 +45,9 @@ export default function AboutContent(){
                     </Card>
                     <br />
             </Media.Body>
-            <Media.Body classname="new-body">
+            <Media.Body classname="new-body" style={{paddingLeft:"20px"}}>
                     <h1 style={{textAlign:"left", paddingLeft:"0px"}}><strong>Core values</strong></h1>
-                    <Card border="dark"  classname="card-body-about">
+                    <Card border="dark"  classname="card-body-about" style={{width:"auto"}}>
                         
                         <Card.Body>
                             <Card.Text style={{textAlign:"left"}}>
@@ -56,7 +56,7 @@ export default function AboutContent(){
                         </Card.Body>
                     </Card>
                     <br />
-                    <Card border="dark"  classname="card-body-about">
+                    <Card border="dark"  classname="card-body-about" style={{width:"auto"}}>
                         
                         <Card.Body>
                             <Card.Text style={{textAlign:"left"}}>
