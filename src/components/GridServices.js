@@ -9,7 +9,7 @@ export default function GridServices(){
 return(
     <CardDeck>
         <Card>
-            <Card.Img variant="top" src={require('../assets/images/4.jpg').default} style={{
+            <Card.Img variant="top" src={require('../assets/images/l1.jpg').default} style={{
                 alignItems:"center",
                 width:"auto",
                 height:"400px"
@@ -48,7 +48,7 @@ return(
                 </Card.Footer>
         </Card>
         <Card>
-            <Card.Img variant="top" src={require('../assets/images/4.jpg').default} style={{
+            <Card.Img variant="top" src={require('../assets/images/l2.jpg').default} style={{
                 alignItems:"center",
                 width:"auto",
                 height:"400px"

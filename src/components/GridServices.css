@@ -35,11 +35,11 @@
     .card{
         align-content: center;
         margin:0px;
-        width: 80%;
+        width:100px;
     }
 
     .card-img-top{
-        height:320px !important;
+        height:250px !important;
     }
 }
 
@@ -75,6 +75,6 @@
     .card-text{
         align-content: center;
     }
-    
+
 
 }
