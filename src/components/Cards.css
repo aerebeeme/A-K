@@ -133,6 +133,34 @@ h2{
   }
 }
 
+@media screen and (max-width: 720px) {
+  .card-deck{
+    margin:35px;
+    align-content: center;
+  }
+
+  .card-deck .card{
+    margin-bottom: 30px !important;
+  }
+
+  .card{
+    margin: 35px !important;
+  }
+
+  p{
+    font-size:20px !important;
+  }
+
+  .card-text{
+    align-content: center;
+  }
+
+  .image-variant{
+  height: auto !important;
+  }
+}
+
+
 @media screen and (max-width: 375px){
 
   .card-deck{
