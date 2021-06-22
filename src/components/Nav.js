@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navs from 'react-bootstrap/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +15,7 @@ function Nav(){
         <Navbar.Brand href="/" style={{
             color:"#fff",
             fontSize:"2rem"}}>
-            <img src={require('../assets/images/Solo.svg').default} style={{width:"220px", height:"60px"}} alt="AK Logo"/></Navbar.Brand>
+            <img src={require('../assets/images/Solo.svg').default} style={{width:"220px", height:"55px"}} alt="AK Logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-toggler-icon"/>
         <Navbar.Collapse id="navbar-toggler-icon">  
         <Navs className='nav-link' style={{
@@ -25,6 +26,13 @@ function Nav(){
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/">Home</Navs.Link>
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/aboutus">About Us</Navs.Link>
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/services">Services</Navs.Link>
+        </Navs>
+        <Navs>
+            <NavDropdown title="Contact Us!" id="collasible-nav-dropdown" style={{textDecoration:"none", color:"white"}}>
+                <NavDropdown.Item href="tel:+12014245507"><i class="fab fa-whatsapp"/> 2014245507</NavDropdown.Item>
+                <NavDropdown.Item href="mailto:akcleanmain@gmail.com"><i class="far fa-envelope-open"/> akcleanmain@gmail.com</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3"><i class="fab fa-facebook-f"/> AK Cleanmain</NavDropdown.Item>
+            </NavDropdown>
         </Navs>
         </Navbar.Collapse>
     </Navbar>
