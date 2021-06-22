@@ -13,8 +13,8 @@
             </p>
             <p className='footer-subscription-text'>
             <i class="far fa-id-badge"/> Liliana Meléndez<br/><br/>
-            <i class="fab fa-whatsapp"/> 2014245507 <br/><br/>
-            <i class="far fa-envelope-open"/> <a href='mailto:akcleanmain@gmail.com' style={{textDecoration:"none", color:"white", hover:"blue"}}>akcleanmain@gmail.com</a>
+            <i class="fab fa-whatsapp"/><a href='tel:+12014245507'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 2014245507</a><br/><br/>
+            <i class="far fa-envelope-open"/> <a href='mailto:akcleanmain@gmail.com' style={{textDecoration:"none", color:"white", hover:"blue"}}> akcleanmain@gmail.com</a>
             </p>
             <div className='input-areas'>
             <p className="footer-description">"We are the solution to the daily problems of your life"</p>
@@ -36,14 +36,6 @@
                 aria-label='Facebook'
                 >
                 <i class='fab fa-facebook-f' />
-                </Link>
-                <Link
-                class='social-icon-link instagram'
-                to='/'
-                target='_blank'
-                aria-label='Instagram'
-                >
-                <i class='fab fa-instagram' />
                 </Link>
             </div>
             </div>
