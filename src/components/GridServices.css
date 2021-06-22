@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1920px){
     .card-deck{
-        margin:100px;
+        margin:28px;
     }
 
     .card{
@@ -28,7 +28,7 @@
 @media screen and (max-width: 768px){
 
     .card-deck{
-        margin:35px;
+        
         justify-content: center;
     }
 
