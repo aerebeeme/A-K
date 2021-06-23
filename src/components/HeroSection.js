@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
     <div className='hero-container'>
-        <img/>
+        <img alt=""/>
         <h1>A&K</h1>
         <p>Cleaning and Maintenance LLC</p>
     
