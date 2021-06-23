@@ -29,9 +29,11 @@ function Nav(){
         </Navs>
         <Navs>
             <NavDropdown title="Contact Us!" id="collasible-nav-dropdown" style={{textDecoration:"none", color:"white"}}>
-                <NavDropdown.Item href="tel:+12014245507"><i class="fab fa-whatsapp"/> 2014245507</NavDropdown.Item>
+                <NavDropdown.Item href="tel:+12014245507"><i class="fas fa-phone-square-alt"/> 2014245507</NavDropdown.Item>
+                <NavDropdown.Item href="https://api.whatsapp.com/send?phone=15512389545"><i class="fab fa-whatsapp"/>5512389545</NavDropdown.Item>
                 <NavDropdown.Item href="mailto:akcleanmain@gmail.com"><i class="far fa-envelope-open"/> akcleanmain@gmail.com</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3"><i class="fab fa-facebook-f"/> AK Cleanmain</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.facebook.com/109691281348796/"><i class="fab fa-facebook-f"/> A&K Cleaning and Maintenance LLC</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.instagram.com/akcleanmain/"><i class="fab fa-instagram"/> akcleanmain</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item><i class="far fa-clock"/> Attention Schedule: 9:00 to 17:00 <br/> from Monday to Friday</NavDropdown.Item>
             </NavDropdown>
