@@ -22,7 +22,7 @@ function Nav(){
             color:"#fff",
             display:"flex",
             fontSize:"1.45em",
-        }}>
+        }}> 
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/">Home</Navs.Link>
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/aboutus">About Us</Navs.Link>
             <Navs.Link eventKey={2} style={{color:"#fff"}} href="/services">Services</Navs.Link>
@@ -32,6 +32,8 @@ function Nav(){
                 <NavDropdown.Item href="tel:+12014245507"><i class="fab fa-whatsapp"/> 2014245507</NavDropdown.Item>
                 <NavDropdown.Item href="mailto:akcleanmain@gmail.com"><i class="far fa-envelope-open"/> akcleanmain@gmail.com</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3"><i class="fab fa-facebook-f"/> AK Cleanmain</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item><i class="far fa-clock"/> Attention Schedule: 9:00 to 17:00 <br/> from Monday to Friday</NavDropdown.Item>
             </NavDropdown>
         </Navs>
         </Navbar.Collapse>
