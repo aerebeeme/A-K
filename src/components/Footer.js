@@ -14,7 +14,8 @@
             <p className='footer-subscription-text'>
             <i class="far fa-id-badge"/> Liliana Meléndez<br/><br/>
             <i class="far fa-clock"/> Attention Schedule: 9:00 to 17:00 <br/> from Monday to Friday<br/><br/>
-            <i class="fab fa-whatsapp"/><a href='tel:+12014245507'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 2014245507</a><br/><br/>
+            <i class="fas fa-phone-square-alt"/><a href='tel:+12014245507'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 2014245507</a><br/><br/>
+            <i class="fab fa-whatsapp"/><a href='https://api.whatsapp.com/send?phone=15512389545'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 5512389545</a><br/><br/>
             <i class="far fa-envelope-open"/> <a href='mailto:akcleanmain@gmail.com' style={{textDecoration:"none", color:"white", hover:"blue"}}> akcleanmain@gmail.com</a>
             </p>
             <div className='input-areas'>
@@ -32,11 +33,17 @@
             <div class='social-icons'>
                 <Link
                 class='social-icon-link facebook'
-                to='/'
                 target='_blank'
                 aria-label='Facebook'
-                >
-                <i class='fab fa-facebook-f' />
+                > <a href='https://www.facebook.com/109691281348796/'>
+                <i class='fab fa-facebook-f' /></a>
+                </Link>
+                <Link
+                class='social-icon-link facebook'
+                target='_blank'
+                aria-label='Facebook'
+                > <a href='https://www.instagram.com/akcleanmain/'>
+                <i class="fab fa-instagram"/></a>
                 </Link>
             </div>
             </div>
