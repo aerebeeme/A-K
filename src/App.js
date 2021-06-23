@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home.js';
 import Services from './components/pages/Services.js';
 import AboutUs from './components/pages/AboutUs.js';
-import {Spinner} from 'react-bootstrap';
 
 function App() {
   return (

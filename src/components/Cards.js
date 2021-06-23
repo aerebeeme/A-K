@@ -1,6 +1,5 @@
 import React from 'react';
 import './Cards.css';
-import CardItem from './CardItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {CardDeck,Card} from 'react-bootstrap';
 
