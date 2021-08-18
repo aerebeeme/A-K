@@ -12,7 +12,7 @@
             Contact us!
             </p>
             <p className='footer-subscription-text'>
-            <i class="far fa-id-badge"/> Liliana Meléndez<br/><br/>
+            <i class="far fa-id-badge"/> Contact Us!<br/><br/>
             <i class="far fa-clock"/> Attention Schedule: 9:00 to 17:00 <br/> from Monday to Friday<br/><br/>
             <i class="fas fa-phone-square-alt"/><a href='tel:+12014245507'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 2014245507</a><br/><br/>
             <i class="fab fa-whatsapp"/><a href='https://api.whatsapp.com/send?phone=15512389545'  style={{textDecoration:"none", color:"white", hover:"blue"}}> 5512389545</a><br/><br/>
